@@ -1,0 +1,273 @@
+/* cuerpo y color del fondo  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 6000px;
+    margin: 0px 350px 0px; 
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 10px; 
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.header {
+    background-image: url('../img/banner.jpg'); 
+    background-size: 100% 100%;
+    background-position: 100% 30%;
+    color: #fff; 
+    text-align: center;
+    padding: 100px 0; 
+}
+
+
+.header-content {
+    margin: 0px; 
+    padding: 0px; 
+    border-radius: 10px;
+}
+
+
+.header-title {
+    margin: 0;
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+.title-bold {
+    font-weight: normal; 
+}
+
+.header-subtitle {
+    font-size: 24px;
+    margin-top: 10px; 
+}
+
+
+.barra {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: auto; 
+    color: #fff; 
+}
+
+
+.logo {
+    font-size: 20px; 
+    margin: 0;
+    padding: 0; 
+}
+
+sin-negrita {
+    font-weight: normal; 
+}
+
+con-negrita{
+    font-weight: bold; 
+}
+
+.logo a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.navegacion {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+.navegacion a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px; 
+    font-weight: bold;
+}
+
+
+.contenido-principal {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-direction: row; 
+    gap: 20px; 
+    text-align: left; 
+    border-left: 200px solid transparent; 
+}
+
+.blog {
+    flex: 1; 
+    padding: 12px; 
+}
+
+/* Estilos para los títulos */
+.entrada-blog h3,
+.cursos h4 {
+    margin: 20px 0; 
+}
+
+
+.entrada-blog .imagen img,
+.cursos img {
+    width: 1000px; 
+    height: 500px; 
+    display: block; 
+    margin: 0; 
+}
+
+
+.no-margin {
+    width: 100%; 
+    line-height: 1.5;
+}
+
+/* justificado */
+.no-margin p {
+    text-align: justify;  
+}
+
+
+.btn-primario {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+
+.cursos {
+    flex: 1; 
+    color: rgb(0, 0, 0); 
+    padding: 20px; 
+    margin: 0; 
+}
+
+
+.btn-secundario {
+    background-color: #6F4E37; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 15px; 
+}
+
+.blog, .cursos {
+    margin-left: 0px; 
+    padding: 20px; 
+    flex: 1; 
+}
+
+
+.site-footer {
+    background-color: black; 
+    color: #fff; 
+    text-align: center;
+    padding: 30px 0; 
+}
+
+.site-footer .contenedor {
+    margin: 0 auto; 
+    max-width: 1300px; 
+}
+
+.site-footer .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.site-footer .barra p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-footer .barra span {
+    font-weight: bold; 
+}
+
+.site-footer .navegacion {
+    margin-top: 20px; 
+}
+
+.site-footer .navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.contenido-blog-nosotros {
+    flex: 2; 
+    padding: 20px; 
+}
+
+/* Estilos para las imágenes */
+.nosotros-blog .imagen img,
+.cursos img {
+    width: 1300px; 
+    height: 400px; 
+    margin: 0; 
+    align-items: center;
+}
+
+
+.nosotros-blog {
+    display: flex; 
+    align-items: center; 
+}
+
+
+.cursos-lista {
+    list-style: none; 
+}
+
+.cursos-talleres {
+    list-style: none; 
+}
